@@ -11,16 +11,14 @@
 **Severity:** Medium
 
 ## BR03
-**Title:** Pagination button remains active on the last page
+**Title:** Movie is not removed from Queue list immediately after clicking "Remove from Queue"
 
 **Severity:** Low
 
 ## BR04
-**Title:** Search field accepts only spaces and returns empty results without validation
-
+**Title:** Success notification cannot be closed manually
 **Severity:** Low
 
 ## BR05
-**Title:** Movie poster is stretched on mobile devices
-
+**Title:** Pagination does not display the total number of pages
 **Severity:** Medium
