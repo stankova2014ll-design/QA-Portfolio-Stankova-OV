@@ -1,1 +1,22 @@
 
+# Bug Reports
+
+## BR01
+Movie is not removed from Watched list immediately after clicking remove button.
+Severity: Medium
+
+## BR02
+Team modal does not open from footer link on My Library page.
+Severity: Medium
+
+## BR03
+Pagination button remains active on the last page.
+Severity: Low
+
+## BR04
+Search field accepts only spaces and returns empty results without validation.
+Severity: Low
+
+## BR05
+Movie poster is stretched on mobile devices.
+Severity: Medium
