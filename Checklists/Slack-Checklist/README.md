@@ -1,18 +1,3 @@
-# Slack Functional Testing Checklist
+## Checklist
 
-Application: Slack
-
-Checklist type: Functional Testing
-
-Covered areas:
-
-* Registration
-* Authorization
-* Account Settings
-* Channel Management
-* Messaging
-* File Upload / Download
-* Search Functionality
-* User Status
-
-Result: All checklist items were executed and documented.
+![Slack Checklist](./Slack-Checklist.png)
