@@ -1,29 +1,30 @@
+
 # API Testing (Ukrainian)
 
-## Task 1. Analyze GET request to https://www.makeup.com.ua/
+## API 01. GET Request Analysis (301 Moved Permanently)
 
 ![API-1](./API-1.png)
 
-## Task 2. Analyze GET request to https://makeup.com.ua/
+## API 02. GET Request Analysis (200 OK)
 
 ![API-2](./API-2.png)
 
-## Task 3. Add product to cart and analyze cart request
+## API 03. Add Product to Cart (PUT, 200 OK)
 
 ![API-3](./API-3.png)
 
-## Task 4. Remove product from cart and analyze cart request
+## API 04. Remove Product from Cart (DELETE, 200 OK)
 
 ![API-4](./API-4.png)
 
-## Task 5. Analyze 504 Gateway Timeout response
+## API 05. Error Response Analysis (504 Gateway Timeout)
 
 ![API-5](./API-5.png)
 
-## Task 6. Analyze 404 Not Found response
+## API 06. Error Response Analysis (404 Not Found)
 
 ![API-6](./API-6.png)
 
-## Task 7. Analyze 503 Service Unavailable response
+## API 07. Error Response Analysis (503 Service Unavailable)
 
 ![API-7](./API-7.png)
