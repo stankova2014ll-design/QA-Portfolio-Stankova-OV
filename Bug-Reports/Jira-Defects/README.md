@@ -1,17 +1,23 @@
+
+
 # Jira Defect Reports
-# Jira Bug Reports
 
-This section contains bug reports created and tracked in Jira.
+This section contains defects created and tracked in Jira during functional and UI testing.
 
-The defects were documented with detailed descriptions, severity assessment, expected results, actual results and supporting evidence.
+Each defect includes:
+* Bug summary
+* Severity and priority
+* Preconditions
+* Steps to reproduce
+* Actual result
+* Expected result
+* Supporting screenshot
 
-## Tools Used
-
+Tools used:
 * Jira
+* Manual Testing
 * Bug Reporting
 * Defect Tracking
-* QA Documentation
-
 ---
 
 ## Bug 1. Localization Indicator Position
@@ -67,8 +73,9 @@ Navigation skips content when moving through questions.
 ## Skills Demonstrated
 
 * Bug Reporting
-* Defect Lifecycle
-* Jira
 * Functional Testing
 * UI Testing
-* Documentation
+* Defect Lifecycle
+* Jira Workflow
+* Severity and Priority Assessment
+* Test Documentation
