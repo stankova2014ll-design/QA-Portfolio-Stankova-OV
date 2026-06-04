@@ -20,28 +20,47 @@ Junior QA Engineer with practical knowledge of manual testing, test documentatio
 • Chrome DevTools
 • Jira
 • GitHub
-### Portfolio Projects
-#### Movie Library Testing
-Created test cases and bug reports for a movie web application. Tested search, movie details, Watched list, Queue list and pagination.
+## Portfolio Projects
 
-#### Trello API Testing
-Tested Trello REST API using Postman. Checked status codes, response time, JSON response structure and CRUD operations.
+### 📋 Test Cases
 
-#### SQL Practice
-Created SQL queries for data selection, sorting and filtering using an employee database.
+Manual test cases covering positive and negative test scenarios.
 
-#### Web Testing
+[View Project](./Test-Cases)
 
-Analyzed HTTP requests, status codes and responses using Chrome DevTools.
-#### Jira Bug Tracking
+### 🐞 Bug Reports
 
-Practiced creating and managing bug reports, backlog items and sprint tasks in Jira.
-### Tools
+Bug reports documented in Jira with detailed reproduction steps and screenshots.
 
-• Google Sheets
-• Postman
-• Jira
-• Chrome DevTools
-• GitHub
-• Trello API
+[View Project](./Bug-Reports)
+
+### 🔌 API Testing
+
+REST API testing using Postman including CRUD operations, response validation and status code verification.
+
+[View Project](./API-Testing)
+
+### 🗄️ SQL Queries
+
+Database queries using filtering, sorting, joins and aggregations.
+
+[View Project](./SQL-Queries)
+
+### ✅ Checklists
+
+Manual testing checklists used for web application verification.
+
+[View Project](./Checklists)
+
+### 📄 Data Formats
+
+XML and JSON data structure examples.
+
+[View Project](./Data-Formats)
+
+### 🔌 Postman Collections
+
+Ready to use Postman collections with requests, test scripts and validations.
+
+[View Project](./Postman-Collections)
 
