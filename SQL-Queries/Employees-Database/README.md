@@ -14,47 +14,69 @@ Covered topics:
 * JOIN queries
 * Filtering with BETWEEN
 # SQL Queries Practice
-
 ## Task 1. Order Employees by Hire Date
 
-![Task 1](./01-Order-By-Hire-Date.png)
+Retrieved employee ID, first name, last name and hire date.
+Results were sorted by hire date in descending order using ORDER BY.
 
+**Skills:** SELECT, ORDER BY
+![Task 1](./01-Order-By-Hire-Date.png.png)
 
 ## Task 2. Employees Born After 1960
 
-![Task 3](./03-First-Name-Starts-With-Max.png)
+Selected employees born on or after January 1, 1960.
 
----
-
+**Skills:** SELECT, WHERE
+![Task 2](./02-Birth-Date-After-1960.png.png)
 ## Task 3. First Name Starts With "Max"
 
-![Task 4](./04-Employees-From-Cities.png)
+Filtered employees whose first name starts with "Ma" using pattern matching.
 
+**Skills:** SELECT, WHERE, LIKE
 
----
+![Task 3](./03-First-Name-Starts-With-Max.png.png)
 
 ## Task 4. Employees From Selected Cities
 
-![Task 4](./04-Employees-From-Cities.png)
+Retrieved employee IDs located in Kyiv, Dnipro and Lviv.
 
----
+**Skills:** SELECT, WHERE, IN
 
+![Task 4](./04-Employees-From-Cities.png.png)
 ## Task 5. Count Engineers
 
-![Task 5](./05-Count-Engineers.png)
+Calculated the total number of employees holding the Engineer position.
 
----
+**Skills:** COUNT, WHERE, Aggregation
+
+
+![Task 5](./05-Count-Engineers.png.png)
 
 ## Task 6. Employees Per City
 
-![Task 6](./06-Employees-Per-City.png)
+Counted employees for each city and displayed only cities with more than 10 employees.
 
----
+**Skills:** GROUP BY, HAVING, COUNT
 
-## Task 7. Employees and Titles (JOIN)
+![Task 6](./06-Employees-Per-City.png.png)
+## Task 7. Employees and Job Titles
 
-![Task 7](./07-Employees-And-Titles-Join.png)
----
+Combined employee information with job titles using an INNER JOIN.
 
-## Task 8. Salary Between 50000 and 60000
-![Task 8](./08-Salary-Between-50000-And-60000.png)
+**Skills:** JOIN, Relational Databases
+
+
+![Task 7](./07-Employees-And-Titles-Join.png.png)
+
+## Tools Used
+
+* SQL
+* DBeaver
+* SQLite
+* Relational Databases
+## Task 8. Employees With Salary Between 50,000 and 60,000
+
+Retrieved employees whose salary falls within the specified range.
+
+**Skills:** JOIN, BETWEEN, WHERE
+![Task 8](./08-Salary-Between-50000-And-60000.png.png)
