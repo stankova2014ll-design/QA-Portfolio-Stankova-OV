@@ -1,8 +1,7 @@
 # Oksana Stankova
 
 ## Junior QA Engineer
-
-### About Me
+## Professional Summary
 
 Junior QA Engineer with practical knowledge of manual testing, test documentation, bug reporting, API testing and SQL basics. Experienced in testing web applications, creating test cases, documenting defects and working with tools such as Postman, Jira, Chrome DevTools and GitHub.
 
