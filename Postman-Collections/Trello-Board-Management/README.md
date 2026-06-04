@@ -2,104 +2,157 @@
 
 ## Project Overview
 
-REST API testing of Trello board management functionality using Postman.
+This project demonstrates API testing of the Trello REST API using Postman.
 
-### Covered Scenarios
+The workflow covers the complete lifecycle of board management:
 
-* Create Board
-* Create Lists
-* Create Cards
-* Status Code Validation
-* Response Time Validation
-* Response Body Validation
-## API 01. Create Board
+- Create a board
+- Create lists
+- Create cards
+- Delete a card
+- Retrieve board cards
+- Update board information
 
-**Method:** POST
+The project includes:
+- Request validation
+- Status code verification
+- Response time checks
+- Response body validation
+- Postman test scripts
 
-**Endpoint:** `/1/boards`
+## Tools Used
 
-### Validation
+- Postman
+- Trello REST API
+- JSON
+- JavaScript Assertions
 
-* Board created successfully
-* Response body returned
+---
+
+## API Requests Overview
+
+## API Requests Overview
+
+### API 01. Create Board
+
+Method: POST
+
+Endpoint: `/1/boards`
+
+Validation:
+- Board created successfully
+- Response body returned
 
 ![Create Board](./Create-Board.png)
 
 ---
 
-## API 02. Create Left List
+### API 02. Create Left List
 
-**Method:** POST
+Method: POST
 
-**Endpoint:** `/1/lists`
+Endpoint: `/1/lists`
 
-### Validation
-
-* Status Code = 200
-* Response Time < 1000 ms
-* Name is String
+Validation:
+- Status code = 200
+- Response time < 1000 ms
+- Name field is string
 
 ![Create Left List](./Create-Left-List.png)
 
 ---
 
-## API 03. Create Right List
+### API 03. Create Right List
 
-**Method:** POST
+Method: POST
 
-**Endpoint:** `/1/lists`
+Endpoint: `/1/lists`
 
-### Validation
-
-* Status Code = 200
-* Response Time < 1000 ms
-* Name is String
+Validation:
+- Status code = 200
+- Response time < 1000 ms
+- Name field is string
 
 ![Create Right List](./Create-Right-List.png)
 
 ---
 
-## API 04. Create Card in Left List
+### API 04. Create Left Card
 
-**Method:** POST
+Method: POST
 
-**Endpoint:** `/1/cards`
+Endpoint: `/1/cards`
 
-### Validation
-
-* Status Code = 200
-* Response Time < 200 ms
-* ID is String
+Validation:
+- Status code = 200
+- Response time < 1000 ms
+- ID field is string
 
 ![Create Left Card](./Create-Left-Card.png)
 
 ---
 
-## API 05. Create Card in Right List
+### API 05. Create Right Card
 
-**Method:** POST
+Method: POST
 
-**Endpoint:** `/1/cards`
+Endpoint: `/1/cards`
 
-### Validation
-
-* Status Code = 200
-* Response Time < 1000 ms
-* ID is String
+Validation:
+- Status code = 200
+- Response time < 1000 ms
+- ID field is string
 
 ![Create Right Card](./Create-Right-Card.png)
 
 ---
 
-## Tools Used
+### API 06. Delete Card
+
+Method: DELETE
+
+Endpoint: `/1/cards/{cardId}`
+
+Validation:
+- Status code = 200
+- Card deleted successfully
+
+![Delete Card](./Delete%20Card.png)
+
+---
+
+### API 07. Get Cards on Board
+
+Method: GET
+
+Endpoint: `/1/boards/{boardId}/cards`
+
+Validation:
+- Status code = 200
+- Response is array
+- Response time < 1000 ms
+
+![Get Cards](./Get%20Cards.png)
+
+---
+
+### API 08. Update Board
+
+Method: PUT
+
+Endpoint: `/1/boards/{boardId}`
+
+Validation:
+- Status code = 200
+- Board updated successfully
+- Response time < 1200 ms
+
+![Update Board](./Update%20Board.png)
+
+---
 
 ## Postman Collection Structure
 
-The collection contains requests for complete Trello board management workflow.
-
 ![Collection Structure](./Postman-Collection.png.png)
-* Postman
-* REST API
-* JSON
-* JavaScript Assertions
-* Trello API
+
+
