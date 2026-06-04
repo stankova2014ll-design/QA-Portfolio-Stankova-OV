@@ -1,5 +1,16 @@
 # Oksana Stankova
 
+Junior QA Engineer | Manual & API Testing
+
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-✓-blue)
+![API Testing](https://img.shields.io/badge/API_Testing-Postman-orange)
+![SQL](https://img.shields.io/badge/SQL-Basics-green)
+![Jira](https://img.shields.io/badge/Jira-Bug_Tracking-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-black)
+
+## Professional Summary
+
+Junior QA Engineer with practical experience in manual testing, test documentation, bug reporting, API testing and SQL basics. Skilled in testing web applications, creating test cases, documenting defects and validating API responses using Postman. Experienced with Jira, GitHub, Chrome DevTools, REST APIs, JSON data validation and database queries.
 ## Junior QA Engineer
 ## Professional Summary
 
