@@ -93,6 +93,11 @@ REST API testing of Trello board management functionality using Postman.
 
 ## Tools Used
 
+## Postman Collection Structure
+
+The collection contains requests for complete Trello board management workflow.
+
+![Collection Structure](./Postman-Collection.png.png)
 * Postman
 * REST API
 * JSON
