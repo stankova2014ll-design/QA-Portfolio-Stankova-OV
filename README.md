@@ -65,3 +65,14 @@ Ready to use Postman collections with requests, test scripts and validations.
 
 [View Project](./Postman-Collections)
 
+
+# Oksana Stankova
+
+Junior QA Engineer
+
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-✓-blue)
+![API Testing](https://img.shields.io/badge/API_Testing-Postman-orange)
+![SQL](https://img.shields.io/badge/SQL-Basics-green)
+![Jira](https://img.shields.io/badge/Jira-Bug_Tracking-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-black)
+
