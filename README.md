@@ -3,7 +3,8 @@
 ## Junior QA Engineer
 ## Professional Summary
 
-Junior QA Engineer with practical experience in manual testing, test documentation, bug reporting, API testing and SQL basics. Skilled in testing web applications, creating test cases, documenting defects and validating API responses using Postman. Familiar with Jira, Chrome DevTools, GitHub and basic database queries.
+Junior QA Engineer with practical experience in manual testing, test documentation, bug reporting, API testing and SQL basics. Skilled in testing web applications, creating test cases, documenting defects and validating API responses using Postman. Experienced with Jira, GitHub, Chrome DevTools, REST APIs, JSON data validation and database queries. Familiar with version control workflows, repository management and collaboration using GitHub.
+
 
 ### Skills
 
